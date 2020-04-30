@@ -16,10 +16,10 @@ configMapGenerator:
   name: profiles-parameters
 images:
 - name: gcr.io/kubeflow-images-public/kfam
-  newName: gcr.io/kubeflow-images-public/kfam
+  newName: registry.cn-beijing.aliyuncs.com/yueyongqiang/kfam
   newTag: v1.0.0-gf3e09203
 - name: gcr.io/kubeflow-images-public/profile-controller
-  newName: gcr.io/kubeflow-images-public/profile-controller
+  newName: registry.cn-beijing.aliyuncs.com/yueyongqiang/profile-controller
   newTag: v1.0.0-ge50a8531
 vars:
 - fieldref:

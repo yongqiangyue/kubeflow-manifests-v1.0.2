@@ -28,28 +28,28 @@ data:
             ]
         },
         "sklearn": {
-            "image": "gcr.io/kfserving/sklearnserver",
+            "image": "registry.cn-beijing.aliyuncs.com/yueyongqiang/sklearnserver",
             "defaultImageVersion": "0.2.2",
             "allowedImageVersions": [
                "0.2.2"
             ]
         },
         "xgboost": {
-            "image": "gcr.io/kfserving/xgbserver",
+            "image": "registry.cn-beijing.aliyuncs.com/yueyongqiang/xgbserver",
             "defaultImageVersion": "0.2.2",
             "allowedImageVersions": [
                "0.2.2"
             ]
         },
         "pytorch": {
-            "image": "gcr.io/kfserving/pytorchserver",
+            "image": "registry.cn-beijing.aliyuncs.com/yueyongqiang/pytorchserver",
             "defaultImageVersion": "0.2.2",
             "allowedImageVersions": [
                "0.2.2"
             ]
         },
         "tensorrt": {
-            "image": "nvcr.io/nvidia/tensorrtserver",
+            "image": "registry.cn-beijing.aliyuncs.com/yueyongqiang/tensorrtserver",
             "defaultImageVersion": "19.05-py3",
             "allowedImageVersions": [
                "19.05-py3"
@@ -62,7 +62,7 @@ data:
   explainers: |-
     {
         "alibi": {
-            "image" : "gcr.io/kfserving/alibi-explainer",
+            "image" : "registry.cn-beijing.aliyuncs.com/yueyongqiang/alibi-explainer",
             "defaultImageVersion": "0.2.2",
             "allowedImageVersions": [
                "0.2.2"
@@ -71,7 +71,7 @@ data:
     }
   storageInitializer: |-
     {
-        "image" : "gcr.io/kfserving/storage-initializer:0.2.2",
+        "image" : "registry.cn-beijing.aliyuncs.com/yueyongqiang/storage-initializer022:0.2.2",
         "memoryRequest": "100Mi",
         "memoryLimit": "1Gi",
         "cpuRequest": "100m",
@@ -94,7 +94,7 @@ data:
     }
   logger: |-
     {
-        "image" : "gcr.io/kfserving/logger:0.2.2",
+        "image" : "registry.cn-beijing.aliyuncs.com/yueyongqiang/logger:0.2.2",
         "memoryRequest": "100Mi",
         "memoryLimit": "1Gi",
         "cpuRequest": "100m",

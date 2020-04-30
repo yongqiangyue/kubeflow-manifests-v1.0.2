@@ -14,7 +14,7 @@ commonLabels:
   kustomize.component: notebook-controller
 images:
 - name: gcr.io/kubeflow-images-public/notebook-controller
-  newName: gcr.io/kubeflow-images-public/notebook-controller
+  newName: registry.cn-beijing.aliyuncs.com/yueyongqiang/notebook-controller
   newTag: v1.0.0-gcd65ce25
 configMapGenerator:
 - envs:

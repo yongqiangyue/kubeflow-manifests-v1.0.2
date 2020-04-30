@@ -12,4 +12,4 @@ resources:
 images:
 - name: gcr.io/ml-pipeline/api-server
   newTag: 0.2.5
-  newName: gcr.io/ml-pipeline/api-server
+  newName: registry.cn-beijing.aliyuncs.com/yueyongqiang/api-server

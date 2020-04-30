@@ -11,5 +11,5 @@ commonLabels:
   kustomize.component: tf-job-operator
 images:
 - name: gcr.io/kubeflow-images-public/tf_operator
-  newName: gcr.io/kubeflow-images-public/tf_operator
+  newName: registry.cn-beijing.aliyuncs.com/yueyongqiang/tf_operator
   newTag: v1.0.0-g92389064

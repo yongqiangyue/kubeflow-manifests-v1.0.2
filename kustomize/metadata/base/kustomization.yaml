@@ -54,17 +54,17 @@ vars:
     fieldpath: metadata.name
 images:
 - name: gcr.io/kubeflow-images-public/metadata
-  newName: gcr.io/kubeflow-images-public/metadata
+  newName: registry.cn-beijing.aliyuncs.com/yueyongqiang/metadata
   newTag: v0.1.11
 - name: gcr.io/tfx-oss-public/ml_metadata_store_server
-  newName: gcr.io/tfx-oss-public/ml_metadata_store_server
+  newName: registry.cn-beijing.aliyuncs.com/yueyongqiang/ml_metadata_store_server
   newTag: v0.21.1
 - name: gcr.io/ml-pipeline/envoy
-  newName: gcr.io/ml-pipeline/envoy
+  newName: registry.cn-beijing.aliyuncs.com/yueyongqiang/envoy
   newTag: metadata-grpc
 - name: mysql
   newName: mysql
   newTag: 8.0.3
 - name: gcr.io/kubeflow-images-public/metadata-frontend
-  newName: gcr.io/kubeflow-images-public/metadata-frontend
+  newName: registry.cn-beijing.aliyuncs.com/yueyongqiang/metadata-frontend
   newTag: v0.1.8

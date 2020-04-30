@@ -9,7 +9,7 @@ commonLabels:
   kustomize.component: spartakus
 images:
 - name: gcr.io/google_containers/spartakus-amd64
-  newName: gcr.io/google_containers/spartakus-amd64
+  newName: registry.cn-beijing.aliyuncs.com/yueyongqiang/spartakus-amd64
   newTag: v1.1.0
 configMapGenerator:
 - name: spartakus-parameters
