@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-pv
+spec:
+  accessModes:
+  - ReadWriteOnce
+  capacity: 
+    storage: 20Gi
+  claimRef:
+    apiVersion: v1
+    kind: PersistentVolumeClaim
+    name: minio-pv-claim
+    namespace: kubeflow
+  mountOptions:
+  - vers=4
+  nfs:
+    path: /
+    server: 10.200.2.6
+  persistentVolumeReclaimPolicy: Retain
+  volumeMode: Filesystem

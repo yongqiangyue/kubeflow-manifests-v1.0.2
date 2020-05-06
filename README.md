@@ -18,6 +18,11 @@ kubectl apply -f .
 ```
 
 *注：如果需要用local-path文件夹下的yaml文件生成：`kubectl apply -f local-path-storage.yaml`*
+*注：Persistent Volume Claims are in Pending State
+[链接](https://www.kubeflow.org/docs/started/k8s/kfctl-k8s-istio/#persistent-volume-claims-are-in-pending-state)
+# cd storage.yaml
+# kubectl apply -f .
+*
 
 **3.查看结果**
 ```
