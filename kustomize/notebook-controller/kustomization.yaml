@@ -10,7 +10,9 @@ commonLabels:
   app.kubernetes.io/version: v1.0.0
 configMapGenerator:
 - behavior: merge
-  env: overlays/istio/params.env
+  #env: overlays/istio/params.env
+  envs:
+    - overlays/istio/params.env
   name: parameters
 generatorOptions:
   disableNameSuffixHash: true
